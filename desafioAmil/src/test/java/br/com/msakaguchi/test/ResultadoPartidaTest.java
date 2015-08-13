@@ -6,10 +6,11 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
+
+import br.com.msakaguchi.builder.PartidaBuilder;
 import br.com.msakaguchi.service.IResultadoPartida;
 import br.com.msakaguchi.service.ImportadorPartida;
 import br.com.msakaguchi.service.ResultadoPartida;
-import br.com.msakaguchi.vo.PartidaBuilder;
 import br.com.msakaguchi.vo.Partida;
 import br.com.msakaguchi.vo.ResultadoJogadorPartida;
 

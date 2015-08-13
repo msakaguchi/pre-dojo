@@ -3,8 +3,9 @@
  */
 package br.com.msakaguchi.test;
 
+import br.com.msakaguchi.builder.PartidaBuilder;
 import br.com.msakaguchi.vo.Partida;
-import br.com.msakaguchi.vo.PartidaBuilder;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;

@@ -3,13 +3,13 @@ package br.com.msakaguchi.test;
 import org.junit.Before;
 import org.junit.Test;
 
+import br.com.msakaguchi.builder.PartidaBuilder;
 import br.com.msakaguchi.enums.TrofeuEnum;
 import br.com.msakaguchi.service.IJogadorDesempenho;
 import br.com.msakaguchi.service.ImportadorPartida;
 import br.com.msakaguchi.service.JogadorDesempenho;
 import br.com.msakaguchi.vo.Arma;
 import br.com.msakaguchi.vo.Partida;
-import br.com.msakaguchi.vo.PartidaBuilder;
 import br.com.msakaguchi.vo.RankingSequenciaAssassinatos;
 import br.com.msakaguchi.vo.ResultadoJogadorPartida;
 import br.com.msakaguchi.vo.Trofeu;

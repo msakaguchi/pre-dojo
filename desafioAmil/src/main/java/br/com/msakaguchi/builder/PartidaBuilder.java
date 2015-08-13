@@ -1,10 +1,16 @@
 /**
  * 
  */
-package br.com.msakaguchi.vo;
+package br.com.msakaguchi.builder;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+
+import br.com.msakaguchi.vo.Arma;
+import br.com.msakaguchi.vo.EventoMorte;
+import br.com.msakaguchi.vo.Jogador;
+import br.com.msakaguchi.vo.JogadorAssassino;
+import br.com.msakaguchi.vo.Partida;
 
 
 /**
