@@ -1,8 +1,8 @@
-InstruÁıes
+Instru√ß√µes
 ===========
 
-Para executar o projeto È necess·rio compilar o projeto no maven (mvn clean compile).
+Para executar o projeto √© necess√°rio compilar o projeto no maven (mvn clean compile).
 
-As classes de teste no diretÛrio "src/test/java" e no pacote "br.com.msakaguchi.test" est„o anotadas 
-com @test do JUnit e contÈm os cen·rios necess·rios que procuram atender ao problema principal, 
-bem como aos bÙnus. Sendo assim, basta executar a go: clean test que o maven executar· a breve bateria de testes.
+As classes de teste no diret√≥rio "src/test/java" e no pacote "br.com.msakaguchi.test" est√£o com os m√©todos anotadas 
+com @test do JUnit e cont√©m os cen√°rios necess√°rios que procuram atender ao problema principal, bem como aos b√¥nus. 
+Sendo assim, basta executar a go: clean test que o maven executar√° a breve bateria de testes.
