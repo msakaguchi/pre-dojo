@@ -3,4 +3,6 @@ Instruções
 
 Para executar o projeto é necessário compilar o projeto no maven (mvn clean compile).
 
-As classes de teste no diretório "src/test/java" e no pacote "br.com.msakaguchi.test" estão anotadas com @test do JUnit e contém os cenários necessários que procuram atender ao problema principal, bem como aos bônus. Sendo assim, basta executar a go: clean test que o maven executará a breve bateria de testes.
+As classes de teste no diretório "src/test/java" e no pacote "br.com.msakaguchi.test" estão anotadas 
+com @test do JUnit e contém os cenários necessários que procuram atender ao problema principal, 
+bem como aos bônus. Sendo assim, basta executar a go: clean test que o maven executará a breve bateria de testes.
