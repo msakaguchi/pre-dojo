@@ -14,14 +14,36 @@ import br.com.msakaguchi.vo.ResultadoJogadorPartida;
  */
 public interface IJogadorDesempenho {
 
+	/**
+	 * recupera internamente o vencedor da partida
+	 * @param partida
+	 * @return
+	 */
 	IJogadorDesempenho fromVencedor(Partida partida);
 
+	/**
+	 * obtem arma preferida do vencedor da partida. deve ser chamado
+	 * encadeado, primeiramente chamado o metodo fromVencedor().obterArmaPreferidaNaPartida().
+	 * @return
+	 */
 	Arma obterArmaPreferidaNaPartida();
 
 	RankingSequenciaAssassinatos obterMaiorSequenciaAssassinatosIninterruptasNa(Partida partida);
 	
+	/**
+	 * metodo que checa se vencedor ganhou o trofeu de invencicel na partida.
+	 * deve ser invocado de maneira encadeada, primeiramente invocando o método
+	 * fromVencedor()
+	 * @return
+	 */
 	IJogadorDesempenho quePossuiTrofeuAwardInvencivelNaPartida();
 	
+	/**
+	 * retorna premiacao do vencedor que tenha trofeu de invencivel. Deve ser invocado
+	 * de maneira encadeada: fromVencedor().quePossuiTrofeuAwardInvencivelNaPartida()
+	 * .retornaDesempenhoComPremiacao()
+	 * @return
+	 */
 	ResultadoJogadorPartida retornaDesempenhoComPremiacao();
 
 }
