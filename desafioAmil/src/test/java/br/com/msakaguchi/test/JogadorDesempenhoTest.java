@@ -79,7 +79,7 @@ public class JogadorDesempenhoTest {
 		doThrow(new RuntimeException())
 				.when(jogadorDesempServiceMock.fromVencedor(partida).obterArmaPreferidaNaPartida());
 
-		jogadorDesempServiceMock.obterArmaPreferidaNaPartida();
+		jogadorDesempServiceMock.fromVencedor(partida).obterArmaPreferidaNaPartida();
 
 	}
 
